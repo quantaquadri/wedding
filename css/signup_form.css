@@ -253,7 +253,8 @@ textarea.input100 {
   width: 100%;
   height: 50px;
   border-radius: 15px;
-  background-image: -webkit-linear-gradient(0deg, #ca2fff 0%, #8e96f8 55%, #53fff0 100%);
+  /* background-image: -webkit-linear-gradient(0deg, #ca2fff 0%, #8e96f8 55%, #53fff0 100%); */
+  background: #ca2fff;
   font-family: Montserrat-Bold;
   font-size: 15px;
   line-height: 1.5;
