@@ -2708,27 +2708,56 @@ header {
   margin-bottom: 0!important;
 }
 
-
-/* //SIGNUP */
-
-.bg-contact100 {
-  width: 100%;  
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+.genric-btn.primary-border.stata {
+  color: #c931ff;
+  border: 1px solid #c931ff;
+  background: #fff;
+  margin: 52px;
 }
 
-.container-contact100 {
-  width: 100%;  
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
+@media (max-width: 768px) {
+  .genric-btn.primary-border.stata {
+     display: none; 
+  }
+}
+
+@media (max-width: 768px) {
+  .date-area {
+     display: none; 
+  }
+}
+
+
+/* ONBOARDING SCREEN */
+.onbo {
   display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
   align-items: center;
-  padding: 15px;
-  background: rgba(202,47,255,0.8);
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  color: #000  
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ca2fff;
+  border-color: #ca2fff;
+}
+
+.onbor{
+  padding-top: 160px;
+}
+
+@media (max-width: 768px) {
+  .onbor {
+     padding-top: 0px;
+  }
 }
