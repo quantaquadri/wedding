@@ -39,7 +39,7 @@
                 
                 <h4 class="mb-3" style="color: #ca2fff">Couple's Information:</h4><br>
 
-                <form class="needs-validation" novalidate>
+                <form class="needs-validation" novalidate onsubmit="alert('Thanks for Filling the form, we would send you an email shortly for more details on how to proceed.');">
                     <div class="row">
                         <div class="col-md-4 mb-3">
                             <label for="firstName">Wedding HashTag? </label>
@@ -118,11 +118,45 @@
                             <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
                         </div>
 
+                        <div class="col-md-12 mb-3">
+                                <label for="lastName">Please List The Kinds of Gift You Would Want People To Get For You:</label>
+                                
+                                <div class="custom-control custom-radio">
+                                  <input id="credit" name="paymentMethod" value="group1" type="checkbox" class="custom-control-input" checked required>
+                                  <label class="custom-control-label" for="credit">Kitchen Utensils</label>
+                                </div>
+
+                                <div class="custom-control custom-radio">
+                                  <input id="debit" name="paymentMethod" value="group1" type="checkbox" class="custom-control-input" required>
+                                  <label class="custom-control-label" for="debit">Fridge</label>
+                                </div>
+                                
+                                <div class="custom-control custom-radio">
+                                  <input id="paypal" name="paymentMethod" value="group1" type="checkbox" class="custom-control-input" required>
+                                  <label class="custom-control-label" for="paypal">Shoes</label>
+                                </div>
+
+                                <div class="custom-control custom-radio">
+                                  <input id="credit" name="paymentMethod" value="group1" type="checkbox" class="custom-control-input" checked required>
+                                  <label class="custom-control-label" for="credit">Clothes</label>
+                                </div>
+
+                                <div class="custom-control custom-radio">
+                                  <input id="debit" name="paymentMethod" value="group1" type="checkbox" class="custom-control-input" required>
+                                  <label class="custom-control-label" for="debit">Bags</label>
+                                </div>
+                                
+                                <div class="custom-control custom-radio">
+                                  <input id="paypal" name="paymentMethod" value="group1" type="checkbox" class="custom-control-input" required>
+                                  <label class="custom-control-label" for="paypal">Washing Machine</label>
+                                </div>
+                        </div>
+
                     </div>
 
                     <br>
 
-                    <button class="btn btn-primary btn-lg btn-block" type="submit">One Last Step...</button>
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
 
                 </form>
             </div>
@@ -144,10 +178,11 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../../../dist/js/bootstrap.min.js"></script>
-    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.min.js"></script>
+    
     <script>
       // Example starter JavaScript for disabling form submissions if there are invalid fields
       (function() {
@@ -170,5 +205,6 @@
         }, false);
       })();
     </script>
+
   </body>
 </html>
