@@ -2508,7 +2508,7 @@ header {
 .reservation-area .form-control {
   border-radius: 0;
   background-color: transparent;
-  border: 1px solid #656463;
+  border: 1px solid #fff;
   color: #fff;
   font-size: 14px;
   padding: 12px;
