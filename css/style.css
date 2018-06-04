@@ -2119,6 +2119,7 @@ header {
 .header-top {
   padding: 20px 0px;
 }
+
 /* 
 .menu-left {
   font-weight: 600;
@@ -2126,6 +2127,12 @@ header {
 
 .menu-left a {
   margin-right: 32px;
+  color: #000;
+}
+
+.menu-lefti a {
+  margin-right: 12px;
+  font-size: 14px;
   color: #000;
 }
 
@@ -2739,7 +2746,7 @@ header {
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 100px;
   padding-bottom: 40px;
   background-color: #f5f5f5;
   font-family: "Poppins", sans-serif;
@@ -2750,13 +2757,13 @@ header {
 
 .btn-primary {
   color: #fff;
-  background-color: #622fff;
-  border-color: #622fff;
+  background-color: #f9508c;
+  border-color: #f9508c;
 }
 
 input[type=submit] {
   padding:.25rem .75rem; 
-  background-color:#f9508c; 
+  background-color:#808080; 
   color: #fff;
   border:0 none;
   cursor:pointer;
@@ -2774,6 +2781,43 @@ input[type=submit] {
   }
 }
 
+@media (max-width: 768px) {
+  .menu-lefti a {
+     display: none;
+  }
+}
+
+
+/* THEME SCREEN */
+.themme {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 180px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #000  
+}
+
+.themmme input[type=submit] {
+  padding:.25rem .75rem; 
+  background-color:#f9508c; 
+  color: #fff;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: .25rem;
+  border-radius: .25rem; 
+}
+
 
 /* COUPLES DETAILS */
 
@@ -2787,7 +2831,7 @@ input[type=submit] {
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 180px;
   padding-bottom: 40px;
   background-color: #f5f5f5;
   font-family: "Poppins", sans-serif;
