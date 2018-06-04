@@ -52,6 +52,11 @@ body {
 
 .btn-primary {
   color: #fff;
-  background-color: #ca2fff;
-  border-color: #ca2fff;
+  background-color: #ff2fcc;
+  border-color: #ff2fcc;
+}
+
+.btn-primary:hover {
+  background-color: #ff2fcc; /* Green */
+  color: white;
 }

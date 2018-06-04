@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -6,38 +6,43 @@
     <meta name="description" content="">
     <meta name="author" content="">
     
-
-    <title>Signin Template for Bootstrap</title>
+    <title>RanPea | Let's Help You Have The Best Wedding Ever</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this form -->
     <link href="css/signup.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
   </head>
 
   <body class="text-center">
 
-    <form class="form-signin">
+    <form class="form-signin" action="" method="">
       
       <h1 class="h3 mb-6 font-weight-normal">Let's Setup Your Account.</h1><br>
 
       
-      <input type="text" class="form-control" placeholder="Name" required autofocus>
-      <label for="name" class="sr-only">Name</label>
+      <input type="text" class="form-control" placeholder="Please Enter Your Name" required autofocus>
+      <label for="name" class="sr-only">Name</label> <br>
       
-      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+      <label for="inputPassword" class="sr-only">Email Address</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="What's your Email address?" required autofocus><br>
       
-      <input type="text" class="form-control" placeholder="Whatsapp Phone Number" required autofocus>
+      <label for="inputPassword" class="sr-only">Phone Number</label>
+      <input type="tel" class="form-control" maxlength="11" placeholder="Enter Your Whatsapp Phone Number" required autofocus><br>
       
       <label for="inputPassword" class="sr-only">Password</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Set A Password" required><br>
       
-      <!-- <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button> -->
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Get Started</button>
       
-      <a href="onboarding.html" class="btn btn-lg btn-primary btn-block">Get Started</a>
+      <!-- <a href="onboarding.html" class="btn btn-lg btn-primary btn-block">Get Started</a> -->
       
-      <a href="index.html"><p class="mt-5 mb-3 text-muted">Return Back To HomePage</p></a>
+      <a href="index.html" style="color:#000;"><p class="mt-5 mb-3 text-muted"> << Return Back To HomePage</p></a>
+
     </form>
+
   </body>
 </html>
