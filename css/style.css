@@ -2189,7 +2189,7 @@ header {
 }
 
 .banner-area {
-  background: url(../img/hheader.jpg) no-repeat center center/cover;
+  background: url("https://res.cloudinary.com/dzomirrk1/image/upload/v1529666683/Ribbons%20Website/Images/hheader.jpg") no-repeat center center/cover;
 }
 
 @media (max-width: 767px) {
@@ -2314,7 +2314,7 @@ header {
 }
 
 .date-section {
-  background: url(../img/tt.png) no-repeat center center;
+  background: url("https://res.cloudinary.com/dzomirrk1/image/upload/v1529666999/Ribbons%20Website/Images/tt.png") no-repeat center center;
   background-size: cover;
   min-height: 200px;
 }
@@ -2508,7 +2508,7 @@ header {
 }
 
 .reservation-area {
-  background: url(../img/reservation.jpg) no-repeat center center;
+  background: url("https://res.cloudinary.com/dzomirrk1/image/upload/v1529667040/Ribbons%20Website/Images/reservation.jpg") no-repeat center center;
   background-size: cover;
 }
 
